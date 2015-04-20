@@ -16,3 +16,13 @@ Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
 Titanium is licensed under the Apache Public License (Version 2). Please
 see the LICENSE file for the full license.
 
+Reviewer 1:
+The code does not seem to have any grammatical errors. When I copied the two .js files into Titanium and ran the app, I did not encounter any errors or alerts due to faults in the code. 
+The app has two windows with navigation on the first page to get to the second page. However, there is no navigation on the second page to get back to the first page. This can be solved simply 
+by adding in a button in the win2.js file that has an event listener to close win2 and open win1. Besides that, the functionality of the app works perfectly. 
+
+In terms of appearance and content, there are several things I would consider going forward. First, some content may not be needed, like your gender, which can be seen from your photo. Also, make sure that
+the information that you upload is completely viewable. Your language and work history is cut off on your second page. 
+
+The information displays well on various devices. I tried your app on an iPhone 4 and an iPhone 6. Your use of the table view and scrollable content made it easy to see the content and be able to adjust with 
+the various sizes of screens. Overall, your app works well and there are no coding errors. In future, think about adding a back button and making sure all the content can be read. 
